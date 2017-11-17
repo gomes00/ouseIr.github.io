@@ -1,0 +1,144 @@
+/* FOLHA DE ESTILO */
+.caixa{
+	border: 1px solid red;
+}
+.gap{
+	margin-top: 10px;
+	margin-bottom: 10px;
+}
+html, body{
+	height: auto;
+}
+
+body{
+      background-image: url(imagens/capa2.jpeg) ;
+    background-attachment: fixed;
+}
+
+/* MENU */
+#inicio{
+    height: 1000px;
+    width: auto;
+  
+}
+
+nav{
+	height: 200px;
+	background-color: #4d4d4d;
+	border-bottom: 3px solid #f0cf2c;
+}
+nav .row{
+	margin-top: 40px;
+	margin-bottom: 20px;
+}
+
+nav a{
+	color: #999999;
+}
+
+nav a:hover, nav a:focus{
+	color: #f0cf2c;
+}
+
+.nav-link{ 
+	color: #dea340;
+}
+
+.nav-link:hover, .nav-link:active{ 
+	color: #c98b22;
+}
+
+.nav-item .dropdown-menu{
+    background-color: transparent;
+    border: none;
+}
+
+.nav-item .dropdown-menu .dropdown-item{
+    background-color: transparent;
+    color: #c98b22;
+}
+
+.tamanho{
+    height: 470px;
+}
+
+#meucarousel{
+	width: 600px;
+	height: 470px;
+    padding: 0;
+}
+
+#meucarousel img{ 
+	width: 600px;
+	height: 600px;
+}
+/* /MENU */
+
+/* SITE */
+
+#site row{
+    height: auto;
+}
+
+#site h1{
+	margin-top: 100px;
+	color: #212121;
+}
+#site p{
+	color: #212121;
+    font-weight: bold;
+}
+
+#site{
+    width: 100%; 
+}
+
+#quem{
+    width: 100%;
+    padding-left: 50px;
+    background-color: #fff;
+}
+
+.projetos{ 
+	margin: 5px;
+	margin-bottom: 10px;
+	width: auto;
+	height: auto;
+}
+
+.projetos:hover{ 
+	opacity: 0.8;
+}
+/* /SITE */
+
+/* /FOOTER */
+footer{
+	height: 100px;
+    margin-top: 40px;
+    background-color: aliceblue;
+}
+/* /FOOTER */
+
+
+/*PROJETOS*/
+
+.pjts{
+	margin-top: 15px;
+	border-top: 1px solid #f0cf2c;
+	padding-top: 15px;
+}
+
+#projeto img:hover{
+	opacity: 0.6;
+}
+
+/*CONTATOS*/
+
+.icon {
+  width: 20px;
+  height: 20px;
+}
+
+.icon-account-login {
+  fill: #4d4d4d;
+}
