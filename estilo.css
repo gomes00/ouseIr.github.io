@@ -8,6 +8,7 @@
 }
 html, body{
 	height: auto;
+    overflow-x: hidden;
 }
 
 body{
@@ -15,9 +16,18 @@ body{
     background-attachment: fixed;
 }
 
+.carousel-indicators .active{
+    background-color: #212121 !important;
+}
+
+#pacotes{
+    transition-delay: 1s;
+    -webkit-transition-delay: 1s;
+}
+
 /* MENU */
 #inicio{
-    height: 1000px;
+    height: auto;
     width: auto;
   
 }
@@ -39,28 +49,15 @@ body{
 }
 
 .nav-item .dropdown-menu .dropdown-item{
+    font-family:'Berkshire Swash',Open Sans;
     background-color: transparent;
     color: #c98b22;
 }
 
-.tamanho{
-    height: 470px;
-}
 
-#meucarousel{
-	width: 600px;
-	height: 470px;
-    padding: 0;
-}
-
-#meucarousel img{ 
-	width: 600px;
-	height: 600px;
-}
 /* /MENU */
 
 /* SITE */
-
 #site row{
     height: auto;
 }
@@ -78,21 +75,83 @@ body{
 #site{
     width: 100%; 
 }
+.sonhoimg{
+    height: 250px;
+    width: 250px;
+    padding: 0px !important;
+}
 
-#quem{
+#sonho h1{
+    color: #212121;
+    font-weight: bold;
+    font-family:'Berkshire Swash',Open Sans;
+    font-size: 80px;
+}
+.sonhoimg img{
+    height: 100%;
+    width: 100%;
+    padding-right: 0px;
+    margin-bottom: 0px;
+}
+.tamanho{
+    height: 470px;
+}
+
+#meucarousel{
+	width: 600px;
+	height: 470px;
+    padding: 0;
+}
+#rolagem{
+    background-color: rgba(255,255,255,0.78);
+}
+
+#meucarousel img{ 
+	width: 600px;
+	height: 600px;
+}
+
+.carousel-item p{
+    color: #c98b22;
+    font-size: 3.5em;
+    font-family:'Berkshire Swash',Open Sans;
+    margin-top: 100px; 
+}
+
+.divisao{
+    margin: 40px 0;
+    width: 100%;
+    height: auto;
+}
+
+#vantagens{
+    overflow-x: hidden;
     width: 100%;
     padding-left: 50px;
     background-color: rgba(255,255,255,0.78);
 }
 
-.projetos{ 
-	margin: 5px;
-	margin-bottom: 10px;
-	width: auto;
-	height: auto;
+#vantagens h1, #vantagens h3{
+        color: #c98b22;
+    text-align: center;
 }
 
-.projetos:hover{ 
+#vantagens h3{
+
+    font-family:'Berkshire Swash',Open Sans;
+}
+
+#destinos h1{
+    margin-top: 20px;
+    margin-bottom: 60px;
+}
+
+#destinos img{
+    width: 100%;
+    height: 100%;
+    margin-right: 10px;
+}
+#destinos img:hover{ 
 	opacity: 0.8;
 }
 /* /SITE */
